@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+}
+
+.image-one{
+    padding: 22px 28px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: 150px;
+
+}
+
+header ul {
+    list-style: none;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+header ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+.img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-box{
+    width: 90%;
+    color: rgba(35, 9, 182, 0.932);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: burlywood;
+    border: 1px solid burlywood;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+
+}
+
+
+
+
+@media(max-width: 700px) {
+    .text-box h1{
+        font-size: 20px;
+    }
+    header ul {
+        display: block;
+    }
+
+    header ul li {
+        position: absolute;
+        background-color: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+    
+}
+
+
+/* Course */
+.Course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+hi {
+    font-size: 36px;
+    font-weight: 600px;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.courses {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    justify-content: center;
+    margin-left: 500px;
+    color: #f44336;
+}
+
+h5{
+    justify-content: center;
+    margin-left: 400px;
+    color: #f44336;
+}
+
+.degree {
+    background-color: #f44336;
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
